@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff6ea;
+    color: #333;
+}
+.heading1 {
+    color: #9f5c59;
+    text-align: center;
+    padding: 20px;
+}
+.heading2 {
+    color: #9f5c59;
+    margin-top: 20px;
+    padding: 20px;
+
+}
+.copy {
+    padding-left: 20px;
+    line-height: 1.6;
+}

@@ -1,0 +1,60 @@
+.about-main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-introduction,
+.our-mission,
+.meet-the-artist,
+.client-testimonials {
+    background-color: #fff6ea;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-introduction h1,
+.our-mission h2,
+.meet-the-artist h2,
+.client-testimonials h2 {
+    font-family: 'Lora', serif;
+    color: #9f5c59;
+    margin-bottom: 20px;
+}
+
+.artist-profile {
+    display: flex;
+    align-items: center;
+}
+
+.artist-profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.artist-info {
+    max-width: 900px;
+}
+
+.client-testimonials {
+    background-color: #fff6ea;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial {
+    background: #ffffff;
+    border-left: 4px solid #9f5c59;
+    padding: 15px;
+    margin: 10px 0;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

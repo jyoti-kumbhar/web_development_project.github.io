@@ -1,0 +1,62 @@
+body {
+    background-color: #fff6ea;
+    color: #9f5c59;
+}
+
+/* Container for main content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Headings and Paragraphs */
+h4, .color {
+    color: #9f5c59;
+    margin: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Service list styles */
+ul li {
+    margin-bottom: 10px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: #9f5c59;
+    color: #fff6ea;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Preformatted text */
+pre {
+    white-space: pre-wrap;
+    font-size: 16px;
+    color: #fff6ea;
+}
+
+.img-r{
+    float: right;
+}
+.img-l{
+    float: left;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+    h4 {
+        font-size: 22px;
+    }
+
+    p, pre {
+        font-size: 14px;
+    }
+}
